@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Soul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shorcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header id="inicioP">
+            <h1>PODER INTERIOR</h1>
+
+            <nav class="menu">
+                <a href="#inicioP">Inicio</a>
+                <a href="#infoP">Info</a>
+                <a href="#comprarP">Comprar</a>
+                <a href="#redesP">RR.SS.</a>
+            </nav>
+        </header>
+        <section class="main">
+            <article>
+                
+
+                <h2 id="infoP">Rituales para el éxito y resiliencia</h2>
+
+                <p class="desc">Descripción del e-book:</p>
+
+                <p>Explora las páginas de este e-book para descubrir un viaje transformador hacia el éxito, la protección personal y la resiliencia. Desde antiguos rituales de sabiduría hasta prácticas contemporáneas,  para fortalecer tu espíritu y enfrentar las tormentas de la vida con valentía. Prepárate para sumergirte en un mundo de rituales  que actúan como escudos emocionales, brindándote la capacidad de enfrentar desafíos con una resiliencia renovada para alcanzar el éxito. <br><br>
+                    Este e-book  es tu mapa para cultivar una fuerza interior que te acompañará en tu jornada hacia una vida más equilibrada y protegida.</p>
+
+                <hr><br><br>
+                <p id="comprarP">Disponible próximamente!</p><br><br>
+                <hr>
+
+                <div class="thumb">
+                    <img src="imagenes/thumb.jpeg" alt="Poder Interior Ebook">
+                </div>
+            </article>
+        </section>
+        <aside>
+            <div class="ad">
+                <h2>Tarot integral terapéutico y predictivo</h2><br>
+                <p>El tarot terapéutico ofrece beneficios holísticos al proporcionar reflexión, autoconocimiento y orientación emocional, promoviendo el bienestar mental y espiritual, a través de la exploración simbólica de la vida y las experiencias personales. Te invito a priorizar la claridad y tranquilidad mental a través de la guía mágica del tarot integral, que combina aspectos terapéuticos y predictivos para enriquecer tu comprensión y bienestar personal. <br><br>Cada pregunta tiene un valor de 3.000 CLP o 6.5 dólares. <br><br>Puedes pagar por transferencia o paypal. <br><br>Se entrega respuesta a cada pregunta, más consejo adicional integrado. <br><br>Puedes elegir  lecturas desde 2 a 3 preguntas, o la sesión completa, el valor depende de la cantidad de preguntas que tengas. <br><br><hr><br>Agenda tu lectura de tarot <br> al instagram: <a target="_blank" href="https://www.instagram.com/tarotstarsoul/">tarotstarsoul</a> <br><br>O al whatsapp : +56935837023 <br><br>Sígueme en tik tok: <a target="_blank" href="https://www.tiktok.com/@starsoulbb">starsoulbb</a> <br><br><hr></p>
+                <img src="imagenes/imgaside.jpeg" alt="Tarot Star Soul">
+            </div>
+
+        </aside>
+        <footer id="redesP">
+            <div class="autor">
+                <p class="texto-footer">Star Soul</p>
+            </div>
+
+            <div class="redes-sociales">
+                <a target="_blank" href="https://www.instagram.com/tarotstarsoul/"><img class="imagen-rs" src="imagenes/instagram.png" alt="instagram tarotstarsoul"></a>
+                <a target="_blank" href="https://www.tiktok.com/@starsoulbb"><img class="imagen-rs" src="imagenes/tiktok.png" alt="tiktok starsoulbb"></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- -------JAVASCRIPT-------- -->
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+        
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        </script>
+
+</body>
+
+</html>
