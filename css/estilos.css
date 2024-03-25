@@ -200,6 +200,6 @@ footer .imagen-rs {
 
 @media screen and (max-width: 400px) {
     aside {
-        display: none;
+        display: flex;
     }
 }
